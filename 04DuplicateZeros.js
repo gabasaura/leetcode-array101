@@ -19,6 +19,7 @@ var duplicateZeros = function (arr) {
         }}
         while(newArr.length > arr.length){
             newArr.pop()
+            console.log(newArr)
         }
         for(let i = 0; i < arr.length; i++){
             arr[i] = newArr[i]
